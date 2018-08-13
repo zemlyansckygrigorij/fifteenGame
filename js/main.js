@@ -1,7 +1,7 @@
 
 
-    var images = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,0,15];
-	//var images = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0];
+    
+	var images = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0];
 	var countGame = -1;
 	var countStep = 0;
 	var countField = document.getElementById("countGame");
@@ -19,7 +19,7 @@
 		countGame++;
 		resetFinish();
 		// перемешивание элементов массива
-		//images.sort(compareRandom);
+		images.sort(compareRandom);
 		drawTable()	;
 		drawCount();
 	}
