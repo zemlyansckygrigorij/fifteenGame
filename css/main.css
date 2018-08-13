@@ -1,0 +1,54 @@
+body{
+	background-color:lightgreen;
+}
+
+table{
+	background-color:grey;
+	border:solid 1px black;
+	margin:10px;
+}
+td{
+	
+	
+}
+#game{
+	background-color:grey;
+	top:50px;
+	left:50px;
+	
+	height:370px;
+	width:360px;
+}
+
+button{
+    height:50px;
+	width:150px;
+    font-family:arial;	
+	font-size: 18px;
+	margin-top:10px;
+	border-radius:5px;
+}
+#countGame{
+	font-family:arial;	
+	font-size: 18px;
+	
+}
+
+#finish{
+	top:10px;
+	left:10px;
+	background-color:darkslategrey;
+	height:150px;
+	width:550px;
+    font-family:arial;	
+	font-size: 24px;
+	margin-top:10px;
+    color:rgb(255,0,0);	
+	z-index:3;
+	padding:50px;
+	align:center;
+}
+
+.invisible{
+	display: none; 
+}
